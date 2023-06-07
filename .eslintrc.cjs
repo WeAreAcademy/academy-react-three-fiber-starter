@@ -60,8 +60,10 @@ module.exports = {
   },
   rules: {
     // Add your own rules here to override ones from the extended configs.
+    // Note: You may have to restart your dev server for these changes to take effect
 
     // "@typescript-eslint/no-unused-vars": "off"
+    "@typescript-eslint/ban-ts-comment": "off",  //allows @ts-ignore
 
     //So that we don't need to import React just to use JSX - enabled by  eslint-plugin-react
     "react/jsx-uses-react": "off", // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
@@ -78,5 +80,11 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "no-debugger": "off",
     // "no-console": ["error", { allow: ["warn", "error"] }]
+
+
+    //For react-three-fiber
+    "react/no-unknown-property": [1, { "ignore": ["position", "rotation", "scale", "object"] }]
+
+
   },
 };

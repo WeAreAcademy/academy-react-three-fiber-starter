@@ -1,4 +1,4 @@
-# React app (Vite)
+# React-three-fiber starter app, with TypeScript (Vite)
 
 ## Installation
 
@@ -53,6 +53,7 @@ See [package.json](package.json) for other scripts.
 
 -   React app (hot-reloaded when you make changes)
 -   TypeScript
+-   react-three-fiber and the Drei helpers
 -   ESLint and custom config
 -   Formatting with prettier
 -   Testing with
