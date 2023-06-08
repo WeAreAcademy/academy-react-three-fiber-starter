@@ -63,7 +63,8 @@ module.exports = {
     // Note: You may have to restart your dev server for these changes to take effect
 
     // "@typescript-eslint/no-unused-vars": "off"
-    "@typescript-eslint/ban-ts-comment": "off",  //allows @ts-ignore
+    // "@typescript-eslint/ban-ts-comment": "off",  //allows @ts-ignore
+    // "@typescript-eslint/no-explicit-any": "off",
 
     //So that we don't need to import React just to use JSX - enabled by  eslint-plugin-react
     "react/jsx-uses-react": "off", // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
